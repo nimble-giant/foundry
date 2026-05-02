@@ -10,3 +10,51 @@ molds:
     source: github.com/nimble-giant/nimble-mold
     description: "Distributable, reusable, and agnostic AI instruction blanks for common SDLC workflows"
     tags: ["ailloy-mold", "workflows", "claude", "sdlc"]
+
+  - name: replicated-launch
+    source: github.com/kriscoleman/replicated-foundry//molds/launch
+    description: "Full Replicated integration: SDK, releases, CI/CD, CMX validation"
+    tags: ["replicated", "helm", "kubernetes", "sdk", "cicd", "opencode"]
+    version: "v0.2.0"
+
+  - name: replicated-ce
+    source: github.com/kriscoleman/replicated-foundry//molds/ce
+    description: "Helm chart reviews, support triage, and knowledge base for Replicated platform"
+    tags: ["replicated", "helm", "kots", "support", "triage", "runbooks", "opencode"]
+    version: "v0.2.0"
+
+  - name: replicated-gtm
+    source: github.com/kriscoleman/replicated-foundry//molds/gtm
+    description: "GTM intelligence: vendor research, expansion DNA, Chorus sync, Omni BI"
+    tags: ["gtm", "sales", "vendor-research", "chorus", "omni"]
+    version: "v0.2.0"
+
+  - name: replicated-wiki
+    source: github.com/kriscoleman/replicated-foundry//molds/wiki
+    description: "Replicated internal wiki search via Outline MCP"
+    tags: ["outline", "wiki", "mcp", "documentation"]
+    version: "v0.2.0"
+
+  - name: replicated-shortcut
+    source: github.com/kriscoleman/replicated-foundry//molds/shortcut
+    description: "Shortcut story/ticket management via short CLI"
+    tags: ["shortcut", "project-management", "cli"]
+    version: "v0.2.0"
+
+  - name: replicated-support
+    source: github.com/kriscoleman/replicated-foundry//molds/support
+    description: "Replicated product support Q&A from docs and source code"
+    tags: ["replicated", "support", "docs"]
+    version: "v0.2.0"
+
+  - name: replicated-docs
+    source: github.com/kriscoleman/replicated-foundry//molds/docs
+    description: "Replicated docs search (docs.replicated.com) via MCP"
+    tags: ["replicated", "docs", "mcp", "documentation"]
+    version: "v0.2.0"
+
+  - name: plugin-to-mold
+    source: github.com/kriscoleman/plugin-to-mold
+    description: "Scaffolds a multi-target ailloy mold from a Claude Code plugin"
+    tags: ["ailloy-mold", "scaffolding", "claude", "opencode", "converter"]
+    version: "v0.1.0"
