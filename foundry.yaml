@@ -15,46 +15,38 @@ molds:
     source: github.com/kriscoleman/replicated-foundry//molds/launch
     description: "Full Replicated integration: SDK, releases, CI/CD, CMX validation"
     tags: ["replicated", "helm", "kubernetes", "sdk", "cicd", "opencode"]
-    version: "v0.2.0"
 
   - name: replicated-ce
     source: github.com/kriscoleman/replicated-foundry//molds/ce
     description: "Helm chart reviews, support triage, and knowledge base for Replicated platform"
     tags: ["replicated", "helm", "kots", "support", "triage", "runbooks", "opencode"]
-    version: "v0.2.0"
 
   - name: replicated-gtm
     source: github.com/kriscoleman/replicated-foundry//molds/gtm
     description: "GTM intelligence: vendor research, expansion DNA, Chorus sync, Omni BI"
     tags: ["gtm", "sales", "vendor-research", "chorus", "omni"]
-    version: "v0.2.0"
 
   - name: replicated-wiki
     source: github.com/kriscoleman/replicated-foundry//molds/wiki
     description: "Replicated internal wiki search via Outline MCP"
-    tags: ["outline", "wiki", "mcp", "documentation"]
-    version: "v0.2.0"
+    tags: ["outline", "wiki", "mcp", "documentation", "opencode"]
 
   - name: replicated-shortcut
     source: github.com/kriscoleman/replicated-foundry//molds/shortcut
     description: "Shortcut story/ticket management via short CLI"
     tags: ["shortcut", "project-management", "cli"]
-    version: "v0.2.0"
 
   - name: replicated-support
     source: github.com/kriscoleman/replicated-foundry//molds/support
     description: "Replicated product support Q&A from docs and source code"
     tags: ["replicated", "support", "docs"]
-    version: "v0.2.0"
 
   - name: replicated-docs
     source: github.com/kriscoleman/replicated-foundry//molds/docs
     description: "Replicated docs search (docs.replicated.com) via MCP"
-    tags: ["replicated", "docs", "mcp", "documentation"]
-    version: "v0.2.0"
+    tags: ["replicated", "docs", "mcp", "documentation", "opencode"]
 
   - name: plugin-to-mold
     source: github.com/kriscoleman/plugin-to-mold
     description: "Conversion toolkit: skills and agent that automate converting Claude Code plugins to multi-target ailloy molds"
     tags: ["ailloy-mold", "conversion", "claude", "opencode", "toolkit", "foundry"]
-    version: "v1.0.0"
