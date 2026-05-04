@@ -15,8 +15,3 @@ molds:
     source: github.com/kriscoleman/plugin-to-mold
     description: "Conversion toolkit: skills and agent that automate converting Claude Code plugins to multi-target ailloy molds"
     tags: ["ailloy-mold", "conversion", "claude", "opencode", "toolkit", "foundry"]
-
-foundries:
-  - name: replicated-foundry
-    source: github.com/kriscoleman/replicated-foundry
-    description: "Multi-target Replicated molds (launch, ce, gtm, wiki, shortcut, support, docs) — aggregated transitively"
