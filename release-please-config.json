@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "packages": {
+    "molds/ghostwriter": {
+      "component": "ghostwriter",
+      "release-type": "simple",
+      "extra-files": [
+        {
+          "type": "yaml",
+          "path": "mold.yaml",
+          "jsonpath": "$.version"
+        }
+      ]
+    }
+  }
+}
