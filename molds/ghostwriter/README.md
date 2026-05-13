@@ -17,7 +17,13 @@ The output is the artifact. The interview is the means.
 ## Install
 
 ```bash
-ailloy mold install github.com/nimble-giant/foundry//molds/ghostwriter
+ailloy cast github.com/nimble-giant/foundry//molds/ghostwriter
+```
+
+Add `-g` to install globally (available across all projects):
+
+```bash
+ailloy cast -g github.com/nimble-giant/foundry//molds/ghostwriter
 ```
 
 Requires `ailloy >= 0.6.16`.
