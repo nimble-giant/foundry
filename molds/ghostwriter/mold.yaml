@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: mold
 name: ghostwriter
-version: 0.1.0
+version: 0.2.0
 description: >-
   Interactively interviews the user to capture their personal writing voice
   (tone, rhythm, vocabulary, formatting, quirks) and emits a ready-to-install
@@ -10,4 +10,4 @@ author:
   name: Nimble Giant
   url: https://github.com/nimble-giant
 requires:
-  ailloy: ">=0.6.16"
+  ailloy: '>=0.6.16'
