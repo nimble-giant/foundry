@@ -15,3 +15,8 @@ molds:
     source: github.com/kriscoleman/plugin-to-mold
     description: "Conversion toolkit: skills and agent that automate converting Claude Code plugins to multi-target ailloy molds"
     tags: ["ailloy-mold", "conversion", "claude", "opencode", "toolkit", "foundry"]
+
+  - name: ghostwriter
+    source: github.com/nimble-giant/foundry//molds/ghostwriter
+    description: "Interactively interviews the user to capture their personal writing voice and emits a ready-to-install SKILL.md that teaches other AI agents to write in that voice"
+    tags: ["ailloy-mold", "writing", "voice", "style", "skills", "productivity"]
