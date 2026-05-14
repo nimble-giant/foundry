@@ -1,0 +1,32 @@
+name: Validate foundry index
+
+on:
+  pull_request:
+    paths:
+      - foundry.yaml
+      - .github/workflows/validate.yml
+  push:
+    branches: [main]
+    paths:
+      - foundry.yaml
+      - .github/workflows/validate.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  temper:
+    name: ailloy foundry temper
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install ailloy
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/nimble-giant/ailloy/main/install.sh | bash
+          ailloy --version
+
+      - name: Validate foundry.yaml
+        run: ailloy foundry temper foundry.yaml
